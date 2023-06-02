@@ -26,7 +26,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     <Link to="/visitanos">Contacto</Link>
                 </div>
                 <div className="itemContainer">
-                    <Link to="/vacante">Únete al equipo</Link>
+                    Blog
                 </div>
             </div>
             
