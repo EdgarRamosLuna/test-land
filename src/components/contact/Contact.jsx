@@ -48,8 +48,9 @@ const Contact = () => {
             <input  className="input-contact" type="text" placeholder="Nombre Completo" name="nombre" required/>
             <input  className="input-contact"type="text" placeholder="Teléfono" name="telefono" required/>
             <input  className="input-contact" type="hidden" placeholder="pagina" name="pagina" value="inicio" required/>
-            <label htmlFor="">Selecciona una opción: </label> 
+            <label htmlFor="">Apps donde trabajas: </label> 
             <select name="apps" className="select-css" required>
+            <option value="0">Selecciona una opción </option>
             <option value="uber">Uber</option>
             <option value="didi">Didi</option>
             <option value="uber y didi">Uber y Didi</option>
@@ -57,12 +58,14 @@ const Contact = () => {
           </select><br />
           <label htmlFor="">¿Cuántos viajes llevas realizados?: </label>  
             <select name="viajes" className="select-css" required>
+            <option value="0">Selecciona una opción </option>
             <option value="Menos de 700">Menos de 700</option>
             <option value="Mas de 800">Mas de 800</option>
             <option value="Mas de 1,000">Más de 1,000</option>
             <option value="Mas de 3,000">Más de 3,000</option>
             </select><br />
             <label htmlFor="">¿En que parte de México vives?: </label> 
+            <option value="0">Selecciona una opción </option>
             <select name="estado" className="select-css" required>
             <option value="Nuevo León">Nuevo León</option>
             <option value="Guadalajara"> Guadalajara</option>
