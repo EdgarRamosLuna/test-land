@@ -52,7 +52,25 @@
     }
     
   }
-  
+  .input-style {
+    border: 0;
+    background: #4e396f;
+    width: 100%;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    background: inherit;
+    border: 1px solid #000;
+    border-color: #4e396f;
+    box-sizing: border-box;
+    padding: 17px 22px;
+    color: #4e396f;
+  }
   .c-right-contact {
     flex: 1;
     display: flex;
@@ -63,6 +81,14 @@
     align-items: center;
     justify-content: center;
 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 28px;
+    background: rgb(235, 235, 235) !important;
     @include mobile{
       padding-left: 10px;
       padding: 20px;
@@ -128,6 +154,24 @@
     border-radius: 10px;
     padding-left: 10px;
 
+    border: 0;
+    background: #4e396f;
+    width: 100%;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    background: inherit;
+    border: 1px solid #000;
+    border-color: #4e396f;
+    box-sizing: border-box;
+    padding: 17px 22px;
+    color: #4e396f;
+    
     @include mobile{
       padding-left: 0px;
     }
@@ -138,11 +182,23 @@
   }
   
   .textarea-contact {
-    width: 90%;
-    margin: 10px 0px;
-    font-size: 12px;
-    padding-left: 10px;
-    border-radius: 10px;
+    border: 0;
+    background: #4e396f;
+    width: 100%;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    background: inherit;
+    border: 1px solid #000;
+    border-color: #4e396f;
+    box-sizing: border-box;
+    padding: 17px 22px;
+    color: #4e396f;
     resize: none;
   }
   
