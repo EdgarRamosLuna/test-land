@@ -186,6 +186,9 @@
 
   label{
     margin-top:  0px;
+    @include mobile{
+      text-align: left;
+    }
   }
   
   .textarea-contact {
