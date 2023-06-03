@@ -126,7 +126,12 @@
     padding-bottom: 0 !important;
     padding-top: 0 !important;
   }
-  
+  #contacto{
+    padding-bottom: 80px !important;
+    @include mobile{
+      padding-bottom: 0px !important;
+    }
+  }
   .c-title-contact {
     font-size: 40px;
     overflow: hidden;
