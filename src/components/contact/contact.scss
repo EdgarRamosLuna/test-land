@@ -107,12 +107,21 @@
   }
 
   select{
-    width: 90%;
-    border-bottom: 1px solid black;
-    margin: 10px 0px;
-    font-size: 14px;
+    background: inherit;
+    border: 1px solid #4e396f;
+    border-image: initial;
     border-radius: 10px;
-    padding-left: 10px;
+    box-sizing: border-box;
+    color: #4e396f;
+    font-size: 10px;
+    height: 40px;
+    margin: 10px 0;
+    min-width: 0;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    padding: 17px 22px !important;
+    position: relative;
+    width: 100%;
   }
   
   .c-title-contact {
