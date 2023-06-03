@@ -65,3 +65,9 @@
         font-size: 22px;
     }
 }
+
+.intro .right .wrapper h1{
+    @include smallDesktop{
+        font-size: 65px;
+    }
+}
